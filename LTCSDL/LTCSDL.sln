@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTCSDL", "LTCSDL\LTCSDL.csproj", "{58222495-262D-4719-80E0-9C20AB3BD16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58222495-262D-4719-80E0-9C20AB3BD16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58222495-262D-4719-80E0-9C20AB3BD16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58222495-262D-4719-80E0-9C20AB3BD16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58222495-262D-4719-80E0-9C20AB3BD16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3139D1E1-6307-403D-8E84-5600A63BBA59}
+	EndGlobalSection
+EndGlobal
