@@ -32,7 +32,7 @@ namespace LTCSDL
 
         private void DangNhap_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Bạn chắc chắn thoát chương trình?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK);
+            if (MessageBox.Show("Bạn chắc chắn thoát chương trình?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK) 
             {
                 e.Cancel = true;  
             }

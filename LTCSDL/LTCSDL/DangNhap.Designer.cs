@@ -61,6 +61,7 @@ namespace LTCSDL
             // btThoat
             // 
             this.btThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.btThoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(5)))), ((int)(((byte)(159)))));
             this.btThoat.Location = new System.Drawing.Point(681, 331);
@@ -145,8 +146,10 @@ namespace LTCSDL
             // 
             // DangNhap
             // 
+            this.AcceptButton = this.btDN;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btThoat;
             this.ClientSize = new System.Drawing.Size(952, 486);
             this.Controls.Add(this.panel1);
             this.Name = "DangNhap";

@@ -9,3 +9,16 @@ D:\LTCSDL\LTCSDL\obj\Debug\LTCSDL.csproj.CoreCompileInputs.cache
 D:\LTCSDL\LTCSDL\obj\Debug\LTCSDL.exe
 D:\LTCSDL\LTCSDL\obj\Debug\LTCSDL.pdb
 D:\LTCSDL\LTCSDL\obj\Debug\LTCSDL.QuanLyQuanCafe.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\bin\Debug\LTCSDL.exe.config
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\bin\Debug\LTCSDL.exe
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\bin\Debug\LTCSDL.pdb
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.csproj.AssemblyReference.cache
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.DangNhap.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.Properties.Resources.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.QuanLyQuanCafe.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.csproj.GenerateResource.cache
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.csproj.CoreCompileInputs.cache
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.exe
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.pdb
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.NguoiDung.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.Admin.resources
