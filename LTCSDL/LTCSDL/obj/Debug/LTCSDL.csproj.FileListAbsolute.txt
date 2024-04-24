@@ -22,3 +22,5 @@ D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.exe
 D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.pdb
 D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.NguoiDung.resources
 D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.Admin.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.ThongTinQuan.resources
+D:\N14_QuanLyQuanCafe\LTCSDL\LTCSDL\obj\Debug\LTCSDL.LienHe.resources

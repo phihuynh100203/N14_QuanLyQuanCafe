@@ -34,5 +34,17 @@ namespace LTCSDL
             Admin f = new Admin();
             f.ShowDialog();
         }
+
+        private void thôngTinQuánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThongTinQuan f = new ThongTinQuan();
+            f.ShowDialog();
+        }
+
+        private void liênHệToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LienHe f = new LienHe();
+            f.ShowDialog();
+        }
     }
 }

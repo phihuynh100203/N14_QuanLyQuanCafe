@@ -58,6 +58,12 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="LienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LienHe.Designer.cs">
+      <DependentUpon>LienHe.cs</DependentUpon>
+    </Compile>
     <Compile Include="NguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,11 +78,20 @@
     <Compile Include="QuanLyQuanCafe.Designer.cs">
       <DependentUpon>QuanLyQuanCafe.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinQuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinQuan.Designer.cs">
+      <DependentUpon>ThongTinQuan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LienHe.resx">
+      <DependentUpon>LienHe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NguoiDung.resx">
       <DependentUpon>NguoiDung.cs</DependentUpon>
@@ -92,6 +107,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyQuanCafe.resx">
       <DependentUpon>QuanLyQuanCafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinQuan.resx">
+      <DependentUpon>ThongTinQuan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -33,7 +33,8 @@ namespace LTCSDL
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinQuánToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.liênHệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lstHoaDon = new System.Windows.Forms.ListView();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -48,6 +49,7 @@ namespace LTCSDL
             this.cbNuoc = new System.Windows.Forms.ComboBox();
             this.cbDanhMuc = new System.Windows.Forms.ComboBox();
             this.flbBan = new System.Windows.Forms.FlowLayoutPanel();
+            this.đăngXuấtToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -80,7 +82,9 @@ namespace LTCSDL
             // 
             this.thôngTinTàiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thôngTinCáNhânToolStripMenuItem,
-            this.đăngXuấtToolStripMenuItem});
+            this.thôngTinQuánToolStripMenuItem,
+            this.liênHệToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem1});
             this.thôngTinTàiToolStripMenuItem.Name = "thôngTinTàiToolStripMenuItem";
             this.thôngTinTàiToolStripMenuItem.Size = new System.Drawing.Size(182, 29);
             this.thôngTinTàiToolStripMenuItem.Text = "Thông tin tài khoản";
@@ -92,12 +96,19 @@ namespace LTCSDL
             this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
             this.thôngTinCáNhânToolStripMenuItem.Click += new System.EventHandler(this.thôngTinCáNhânToolStripMenuItem_Click);
             // 
-            // đăngXuấtToolStripMenuItem
+            // thôngTinQuánToolStripMenuItem
             // 
-            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
-            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+            this.thôngTinQuánToolStripMenuItem.Name = "thôngTinQuánToolStripMenuItem";
+            this.thôngTinQuánToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.thôngTinQuánToolStripMenuItem.Text = "Thông tin quán";
+            this.thôngTinQuánToolStripMenuItem.Click += new System.EventHandler(this.thôngTinQuánToolStripMenuItem_Click);
+            // 
+            // liênHệToolStripMenuItem
+            // 
+            this.liênHệToolStripMenuItem.Name = "liênHệToolStripMenuItem";
+            this.liênHệToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.liênHệToolStripMenuItem.Text = "Liên hệ Github";
+            this.liênHệToolStripMenuItem.Click += new System.EventHandler(this.liênHệToolStripMenuItem_Click);
             // 
             // panel2
             // 
@@ -234,6 +245,13 @@ namespace LTCSDL
             this.flbBan.Size = new System.Drawing.Size(581, 548);
             this.flbBan.TabIndex = 5;
             // 
+            // đăngXuấtToolStripMenuItem1
+            // 
+            this.đăngXuấtToolStripMenuItem1.Name = "đăngXuấtToolStripMenuItem1";
+            this.đăngXuấtToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.đăngXuấtToolStripMenuItem1.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem1.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+            // 
             // QuanLyQuanCafe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -265,7 +283,7 @@ namespace LTCSDL
         private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinTàiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinCáNhânToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinQuánToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView lstHoaDon;
         private System.Windows.Forms.Panel panel3;
@@ -280,5 +298,7 @@ namespace LTCSDL
         private System.Windows.Forms.Button btnGiamGia;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.FlowLayoutPanel flbBan;
+        private System.Windows.Forms.ToolStripMenuItem liênHệToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem1;
     }
 }
