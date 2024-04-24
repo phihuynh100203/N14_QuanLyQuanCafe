@@ -65,4 +65,11 @@ CREATE TABLE ChiTietHoaDon
 	foreign key (maHoaDon) references HoaDon(maHoaDon),
 	foreign key (maNguoiDung) references NguoiDung(maNguoiDung)
 )
+CREATE TABLE ThongTin(
+  maThongTin INT IDENTITY PRIMARY KEY,
+  tenQuan nvarchar(500) NULL,
+  diaChiQuan varchar(500) NULL,
+  soDTQuan nvarchar(500) NULL DEFAULT(''), 
+  maThue nvarchar(250) NULL,
+)
 GO
